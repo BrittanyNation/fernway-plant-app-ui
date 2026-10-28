@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design System — Fernway Plant Care App UI Concept | Brittany Nation</title>
+<meta name="description" content="Design system for Fernway, a fictional plant care app UI concept: palette, type, and components in aubergine, iris, and lemon.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Design System — Fernway Plant Care App UI Concept | Brittany Nation">
+<meta property="og:description" content="Palette, type, and components for a fictional plant care app UI concept. Designed by Brittany Nation (Sketch / Webflow workflow, hand-built HTML/CSS).">
+<meta property="og:url" content="https://brittanynation.github.io/fernway-plant-app-ui/system.html">
+<meta property="og:image" content="https://brittanynation.github.io/fernway-plant-app-ui/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Design System — Fernway | Brittany Nation">
+<meta name="twitter:description" content="Mobile app UI design system — palette, type, and components.">
+<meta name="twitter:image" content="https://brittanynation.github.io/fernway-plant-app-ui/og-image.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><div class="wrap"><div class="brand">BRITTANY NATION <span>• DESIGN</span></div><nav class="nav" aria-label="Project"><a href="index.html">Overview</a><a href="screens.html">Screens</a><a href="system.html" aria-current="page">Design System</a><a href="https://github.com/BrittanyNation/fernway-plant-app-ui">GitHub Repo</a></nav></div></header>
+<main id="main"><div class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Design System</p>
+    <h1>Calm structure, <em>rare highlights.</em></h1>
+    <p class="lede">Aubergine does the structural work, iris marks actions, and lemon appears only where something is due today — so when a user sees yellow, it always means the same thing.</p>
+  </section>
+
+  <section aria-label="Palette">
+    <h2>Palette</h2>
+    <div class="swatch">
+      <span style="background:#342447;color:#fff">Aubergine #342447</span>
+      <span style="background:#7C5CBF;color:#fff">Iris #7C5CBF</span>
+      <span style="background:#C4B5FD;color:#221C2E">Lilac #C4B5FD</span>
+      <span style="background:#FDE68A;color:#221C2E">Lemon #FDE68A</span>
+      <span style="background:#FAF9FF;color:#221C2E;border:1px solid #E3DEF2">Paper #FAF9FF</span>
+      <span style="background:#221C2E;color:#fff">Ink #221C2E</span>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Token</th><th>Hex</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td>Aubergine</td><td><code>#342447</code></td><td>Header, headings, phone frames, footer</td></tr>
+        <tr><td>Iris</td><td><code>#7C5CBF</code></td><td>Primary actions, progress, prices / key values</td></tr>
+        <tr><td>Lilac</td><td><code>#C4B5FD</code></td><td>Soft accents, badges, secondary surfaces</td></tr>
+        <tr><td>Lemon</td><td><code>#FDE68A</code></td><td>Due-today highlights only</td></tr>
+        <tr><td>Paper</td><td><code>#FAF9FF</code></td><td>Page background</td></tr>
+        <tr><td>Ink</td><td><code>#221C2E</code></td><td>Body text</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section aria-label="Components">
+    <h2>Components</h2>
+    <div class="comp"><h3>Buttons</h3><span class="btn-demo">Mark done</span><span class="btn-demo secondary">Snooze to tomorrow</span><p class="hint">Primary = the one finishing action on the screen. Secondary always names where the task goes — never a vague “Later”.</p></div>
+    <div class="comp"><h3>Task row</h3><div class="task"><span>💧 Water — Monstera • about 2 cups</span><span class="chip">Due today</span></div><p class="hint">Action, plant, and amount in one line, readable one-handed.</p></div>
+    <div class="comp"><h3>Progress</h3><div class="progress" role="img" aria-label="Progress example 70 percent"><span style="width:70%"></span></div><p class="hint">Progress is always paired with a count in words (“7 of 10”) — the bar alone is never the only signal.</p></div>
+    <div class="comp"><h3>Type</h3><p style="font-family:Georgia,serif;font-size:1.6rem;margin:.3rem 0">Headings — Georgia, warm and editorial</p><p style="margin:.3rem 0">Body — system sans, 1rem / 1.6, for fast scanning on a phone in bright light.</p></div>
+  </section>
+
+  <section aria-label="Accessibility notes">
+    <h2>Accessibility notes</h2>
+    <div class="notes">
+      <div class="note"><h3>Never color alone</h3><p>Health, due dates, and progress all carry a word or a count alongside any color.</p></div>
+      <div class="note"><h3>Large tap targets</h3><p>Tasks and primary buttons are full-row / generous-height, designed for one-handed use.</p></div>
+      <div class="note"><h3>Real structure</h3><p>Skip link, labelled navigation with <code>aria-current</code>, a real table for the screen map, and <code>role="img"</code> labels on progress bars.</p></div>
+    </div>
+  </section>
+</div></main>
+<footer><div class="wrap"><p>Fernway is a fictional business — an original portfolio concept by Brittany Nation. • <a href="https://github.com/BrittanyNation/fernway-plant-app-ui">Source on GitHub</a></p></div></footer>
+</body>
+</html>
